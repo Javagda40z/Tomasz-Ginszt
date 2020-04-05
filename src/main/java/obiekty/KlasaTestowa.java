@@ -23,17 +23,18 @@ public class KlasaTestowa {
         listaZwierzat.add(new Cat());
         listaZwierzat.add(new Cat());
 
-        dajGlosDlaTablicyZwierzat(zwierzeta);   // tablica
+//        dajGlosyDlaTablicyZwierzat(zwierzeta);   // tablica
+        dajGlosyDlaListyZwierzat(listaZwierzat);    // lista
     }
 
-    public static void dajGlosDlaTablicyZwierzat(Animal zwierzeta []) {     // przyjmujemy tablice zwierzat
+    public static void dajGlosyDlaTablicyZwierzat(Animal zwierzeta []) {     // przyjmujemy tablice zwierzat
 
         for (Animal animal : zwierzeta) {
             animal.makeSound();
         }
     }
 
-    public static void dajGlosDlaListyZwierzat(List<Animal> zwierzeta) {     //
+    public static void dajGlosyDlaListyZwierzat(List<Animal> zwierzeta) {     //
 
         for (Animal animal : zwierzeta) {
             animal.makeSound();
